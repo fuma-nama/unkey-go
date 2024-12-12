@@ -1,0 +1,22 @@
+{
+    "name": "test",
+    "private": true,
+    "scripts": {
+        "dev": "bun ./map.ts"
+    },
+    "devDependencies": {
+        "@types/mdast": "^4.0.4",
+        "@types/node": "^22.10.2",
+        "typescript": "^5.7.2",
+        "unified": "^11.0.5"
+    },
+    "dependencies": {
+        "fast-glob": "^3.3.2",
+        "gray-matter": "^4.0.3",
+        "mdast-util-to-string": "^4.0.0",
+        "prettier": "^3.4.2",
+        "remark": "^15.0.1",
+        "remark-stringify": "^11.0.0",
+        "unist-util-visit": "^5.0.0"
+    }
+}
